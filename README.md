@@ -29,6 +29,6 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 
 ## Author
 
-Mario Gonzalez Duarte
-magodu.pral@gmail.com
-www.mariogonzalezduarte.es
+- Mario Gonzalez Duarte
+- magodu.pral@gmail.com
+- www.mariogonzalezduarte.es
