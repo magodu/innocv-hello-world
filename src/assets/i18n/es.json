@@ -25,6 +25,10 @@
         "no_contact_info": "El contacto no existe",
         "loading": "Cargando"
     },
+    "validation_messages": {
+        "name_validation": "El nombre es obligatorio",
+        "birthdate_validation": "Campo obligatorio"
+    },
     "component_literals": {
         "calendar": {
             "firstDayOfWeek": 1,

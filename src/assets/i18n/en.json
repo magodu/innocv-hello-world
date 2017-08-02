@@ -25,6 +25,10 @@
         "no_contact_info": "Contact not found",
         "loading": "Loading"
     },
+    "validation_messages": {
+        "name_validation": "Name is required",
+        "birthdate_validation": "Birthdate is required"
+    },
     "component_literals": {
         "calendar": {
             "firstDayOfWeek": 0,

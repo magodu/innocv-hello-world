@@ -46,11 +46,17 @@
                                     <dl>
                                         <dt>{{'contact_data.name' | translate}}</dt>
                                         <dd>
-                                            <input class="form-control" type="text" id="name" [ngClass]="{'error': contactForm.controls['name'].dirty && contactForm.controls['name'].invalid}" formControlName="name">
+                                            <input class="form-control" type="text" id="name" formControlName="name">
+                                            <div class="validation-message" *ngIf="contactForm.controls['name'].dirty && contactForm.controls['name'].invalid">
+                                                {{'validation_messages.name_validation' | translate}}
+                                            </div>
                                         </dd>
                                         <dt>{{'contact_data.birthdate' | translate}}</dt>
                                         <dd>
                                             <p-calendar formControlName="birthdate" [monthNavigator]="true" [yearNavigator]="true" yearRange="1900:2017" [showIcon]="true" [inputStyle]="{'height':'34px'}"  [locale]="i18nCalendar"></p-calendar>
+                                            <div class="validation-message" *ngIf="contactForm.controls['birthdate'].dirty && contactForm.controls['birthdate'].invalid">
+                                                {{'validation_messages.birthdate_validation' | translate}}
+                                            </div>
                                         </dd>
                                     </dl>
                                 </div>
