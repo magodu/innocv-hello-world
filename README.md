@@ -1,4 +1,4 @@
-# AddressBookApp
+# Contacts List App
 
 
 Small app developed in Angular 4 and used like a technical test. This app is fully responsive.
