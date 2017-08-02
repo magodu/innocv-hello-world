@@ -1,0 +1,185 @@
+/* Same CSS than Contact component, but it could be different in the future */
+$text-color: #FFFFFF;
+$background-color: #d14728;
+
+
+.contact-container {
+    display: flex;
+    min-height: 100vh;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    header {
+        background: $background-color;
+        padding: 20px 0 20px 0;
+        color: $text-color;
+        height: 10%;
+        min-height: 70px;
+        width: 100%;
+        table-layout: fixed;
+        .header-text {
+            padding-left: 100px;
+            h1 {
+                margin: 0;
+            }
+        }
+        .search-container {
+            margin-right: 20px;
+            .search {
+                position: relative;
+                color: #aaa;
+                font-size: 16px;
+            }
+            .search input {
+                height: 32px;
+                background: #fcfcfc;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .search input {
+                text-indent: 32px;
+            }
+            .search .fa-search {
+                position: absolute;
+                top: 8px;
+                right: 10px;
+            }
+            input[type=text] {
+                width: 130px;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+            input[type=text]:focus {
+                width: 50%;
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        background: $background-color;
+        color: $text-color;
+        .footer-container {
+            padding: 15px 0 15px 0;
+            width: 90%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: 0 auto;
+            button {
+                background-color: $background-color;
+                border: solid #ffffff 2px;
+                color: #FFFFFF;
+                padding: 5px 32px;
+                text-align: center;
+                -webkit-transition-duration: 0.4s;
+                transition-duration: 0.4s;
+                text-decoration: none;
+                font-size: 16px;
+                cursor: pointer;
+                &:hover,
+                &:focus {
+                    background: #ffffff;
+                    color: #000000;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .content {
+        flex: 1 0 auto;
+        .contact-section {
+            padding: 50px 25px;
+            .contact {
+                border: 1px solid #ccc;
+                padding: 20px;
+                border-radius: 8px;
+                height: 350px;
+                box-shadow: 2px 2px 2px #e6e5e5;
+                width: 85%;
+                display: flex;
+                .contact-wrapper {
+                    height: 90%;
+
+                    .contact-form {
+                        height: 100%;
+
+                        .contact-form-wrapper {
+                            height: 100%;
+                        }
+                    }
+
+                    .contact-photo {
+                        float: left;
+                        img {
+                            width: 200px;
+                        }
+                    }
+                    .contact-data {
+                        float: left;
+                        margin-left: 30px;
+                        text-align: left;
+                        width: 55%;
+                        margin-bottom: 50px;
+                        dl {
+                            padding: 0.5em;
+                        }
+                        dt {
+                            float: left;
+                            clear: left;
+                            text-align: right;
+                            font-weight: bold;
+                            color: #111;
+                        }
+                        dt:after {
+                            content: ":";
+                        }
+                        dd {
+                            margin: 0 0 0 100px;
+                            padding: 0 0 1em 0;
+                            word-break: break-all;
+                            min-height: 48px;
+                        }
+
+                        .error {
+                            border: 2px solid red;
+                        }
+                    }
+
+                }
+
+                .actions {
+                    text-align: right;
+                    clear: both;
+
+                    .button {
+                        background-color: #4CAF50;
+                        border: none;
+                        color: white;
+                        padding: 5px 10px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        width: 80px;
+                    }
+
+                    .button:hover {
+                        background-color: #48964b;
+                        box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 10px 60px 0 rgba(0,0,0,0.19);
+                    }
+
+                    button[disabled] {
+                        background-color: #ccc;
+                    }
+
+                    button[disabled]:hover {
+                        background-color: #ccc;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+

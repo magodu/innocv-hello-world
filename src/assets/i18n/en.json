@@ -1,0 +1,62 @@
+{
+    "titles": {
+        "main": "Contacts List",
+        "detail": "Contact detail",
+        "new": "New contact"
+    },
+    "search_placeholder": "Search",
+    "buttons": {
+        "add_contact": "Add",
+        "return": "Return",
+        "add": "Add",
+        "accept": "Accept",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "delete": "Delete",
+        "yes": "Yes",
+        "no": "No"  
+    },
+    "contact_data": {
+        "name": "Name",
+        "birthdate": "Birthdate"
+    },
+    "messages": {
+        "no_data_info": "There are no contacts",
+        "no_contact_info": "Contact not found",
+        "loading": "Loading"
+    },
+    "component_literals": {
+        "calendar": {
+            "firstDayOfWeek": 0,
+            "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "dayNamesMin": ["S","M","T","W","T","F","S"],
+            "monthNames": [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ],
+            "monthNamesShort": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
+        },
+        "messages": {
+            "success": {
+                "contact_creation": "Contact created successfully",
+                "contact_delete": "Contact deleted successfully",
+                "contact_update": "Contact has been modified"
+            },
+            "error": {
+                "general_error": "An error has ocurred",
+                "creation_error": "An error has ocurred during creation"
+                
+            }
+        },
+        "modals": {
+            "delete_confirmation": {
+                "confirm_delete": "Delete Confirmation",
+                "ask_delete": "Do you want to delete this record?",
+                "reject_button": "No",
+                "accept_button": "Yes"
+            }
+        },
+        "language_list": {
+            "en": "English",
+            "es": "Spanish"
+        }
+
+    }
+}

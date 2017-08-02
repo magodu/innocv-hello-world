@@ -1,0 +1,13 @@
+<!-- Loading modal -->
+<p-dialog #loadingModal [modal]="true" [showHeader]="false" [closeOnEscape]="false" [resizable]="false" [width]="300" [breakpoint]="450" [(visible)]="_loadingModal.display">
+    <div class="loadingContent" align="center" style="height: 100%;">
+        <img alt="Loading  Content" src="assets/images/loading.gif" />
+        <p>{{'messages.loading' | translate}}</p>
+    </div>
+</p-dialog>
+
+
+<!-- Other modal types -->
+<!--  
+    ...  
+-->

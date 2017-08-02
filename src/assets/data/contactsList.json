@@ -1,0 +1,328 @@
+{
+    "contacts": {
+        "a": [{
+            "id": 1,
+            "name": "Albert",
+            "surname": "Richards",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }, {
+            "id": 2,
+            "name": "Alan",
+            "surname": "Richards",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        },{
+            "id": 3,
+            "name": "Anthony",
+            "surname": "Burns",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        },{
+            "id": 4,
+            "name": "Alicia",
+            "surname": "Keys",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }, {
+            "id": 5,
+            "name": "Alicia",
+            "surname": "Méndez Abia",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }],
+        "b": [ {
+            "id": 1,
+            "name": "Barry",
+            "surname": "White",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        },{
+            "id": 2,
+            "name": "Benjamin",
+            "surname": "Button",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }],
+        "c": [{
+            "id": 1,
+            "name": "Connie",
+            "surname": "High",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }, {
+            "id": 2,
+            "name": "Carolina",
+            "surname": "González Martín",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        },{
+            "id": 3,
+            "name": "Charles",
+            "surname": "Jones",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        },{
+            "id": 4,
+            "name": "Carlos",
+            "surname": "García",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }],
+        "d": [{
+            "id": 1,
+            "name": "David",
+            "surname": "Ferrer",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }, {
+            "id": 2,
+            "name": "David",
+            "surname": "Williams",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }],
+        "e": [{
+            "id": 1,
+            "name": "Erika",
+            "surname": "Thompson",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }, {
+            "id": 2,
+            "name": "Esther",
+            "surname": "Rodríguez",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }],
+        "f": [{
+            "id": 1,
+            "name": "Frankie",
+            "surname": "Manning",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }, {
+            "id": 2,
+            "name": "Frederik",
+            "surname": "Lewis",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        },{
+            "id": 3,
+            "name": "Francisco",
+            "surname": "Iturbe López",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }],
+        "g": [{
+            "id": 1,
+            "name": "Gregory",
+            "surname": "Turner",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }, {
+            "id": 2,
+            "name": "Gonzalo",
+            "surname": "Ruiz de Antonio",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        },{
+            "id": 3,
+            "name": "Grace",
+            "surname": "Kelly",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }],
+        "h": [],
+        "i": [{
+            "id": 1,
+            "name": "Irene",
+            "surname": "Pérez Marcos",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }, {
+            "id": 2,
+            "name": "Irina",
+            "surname": "Ivanov",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "RU"
+        }],
+        "j": [],
+        "k": [{
+            "id": 1,
+            "name": "Kyle",
+            "surname": "Morris",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }],
+        "l": [{
+            "id": 1,
+            "name": "Luis",
+            "surname": "Aragonés",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        },{
+            "id": 2,
+            "name": "Lloyd",
+            "surname": "Riley",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }],
+        "m": [{
+            "id": 1,
+            "name": "Mario",
+            "surname": "González Duarte",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        },{
+            "id": 2,
+            "name": "Marta",
+            "surname": "Sánchez",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }],
+        "n": [],
+        "o": [{
+            "id": 1,
+            "name": "Olga",
+            "surname": "Caro Agudo",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        },{
+            "id": 2,
+            "name": "Orlando",
+            "surname": "Bloom",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }],
+        "p": [{
+            "id": 1,
+            "name": "Patricia",
+            "surname": "Salinero Cuenca",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }],
+        "q": [],
+        "r": [{
+            "id": 1,
+            "name": "Raúl",
+            "surname": "Torres Torres",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        },{
+            "id": 2,
+            "name": "Ron",
+            "surname": "Tucker",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }],
+        "s": [{
+            "id": 1,
+            "name": "Sandra",
+            "surname": "Sabatés",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "ES"
+        }],
+        "t": [{
+            "id": 1,
+            "name": "Timothy",
+            "surname": "Porter",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }],
+        "u": [],
+        "v": [{
+            "id": 1,
+            "name": "Vince",
+            "surname": "Carter",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "GB"
+        }],
+        "w": [],
+        "x": [],
+        "y": [],
+        "z": [{
+            "id": 1,
+            "name": "Zoe",
+            "surname": "Evans",
+            "email": "magodu.pral@gmail.com",
+            "phone": "(857) 930-9154",
+            "imageUrl": "unknown-photo.jpg",
+            "country": "US"
+        }]
+    }
+
+
+}

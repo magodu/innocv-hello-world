@@ -1,0 +1,51 @@
+
+@media screen and (max-width:760px) {
+    .address-book-container header .header-text, .contact-container header .header-text {
+        padding-left: 20px !important;
+
+    }
+
+    .address-book-container header .header-text h1, .contact-container header .header-text h1 {
+        font-size: 30px;
+
+    }
+
+    .address-book-container .content .letters {
+        margin: 0 15px 30px 15px !important;
+    }
+   
+    .address-book-container header .search-container input[type=text]:focus {
+        width: 80% !important;
+    }
+
+    .contact-container .content .contact-wrapper .contact {
+        height: 530px !important;
+    }
+
+    .contact-container .content .contact-wrapper .contact .contact-photo {
+        float: none !important;
+    }
+
+    .contact-container .content .contact-wrapper .contact .contact-data, .contact-container .content .contact-wrapper .contact .form-data {
+        float: none !important;
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+    .address-book-container header .header-text h1, .contact-container header .header-text h1 {
+        font-size: 25px;
+
+    }
+
+    .contact-container .content .contact-wrapper .contact {
+        width: 100% !important;
+    }
+
+
+}   

@@ -1,0 +1,87 @@
+<div class="contacts-list-container">
+    <app-modal></app-modal>
+    <header>
+        <div class="flex-row">
+            <div class="flex-col-6">
+                <div class="flex-box">
+                    <div class="header-text">
+                        <h1>{{'titles.main' | translate}}</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col-6">
+                <div class="flex-box flex-end flex-middle search-container">
+                    <form>
+                        <div class="search">
+                           <span class="fa fa-search"></span>
+                           <input  type="text" name="search" placeholder="{{'search_placeholder' | translate}}" [(ngModel)]="searchFilter">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="letters">
+            <div >
+                <span *ngFor="let key of contactsList | keys" >
+                     <a scroll [disabled]="key.value.length === 0" href="#{{key.key}}" (pageScrollFinish)="setActiveLetter($event)" [ngClass]="{'disabled': key.value.length === 0, 'active': key.key === activeLetter}">{{key.key}}</a>                      
+                </span>
+            </div>
+        </section>
+        <section class="contacts">
+            <div id="contacts-wrapper" class="contacts-wrapper" *ngIf="isData">
+                <div class="letter-container" *ngFor="let key of contactsList | keys" id="{{key.key}}">
+                    <div class="letter-title" *ngIf="key.value.length > 0">
+                        <div class="letter">{{key.key}}</div>
+                    </div>
+                    <div *ngFor="let contact of key.value | filterByText: searchFilter">
+                        <div class="contact"  [routerLink]="['/detail', contact.id]">
+                            <div class="contact-photo">
+                                <img src="assets/images/{{contact.imageUrl}}" />
+                            </div>
+                            <div class="contact-data">
+                                <div class="info">
+                                    <div class="name">{{contact.name}}</div>
+                                    <div class="birthdate">{{contact.birthdate | date: 'dd/MM/yyyy'}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="message-info" class="message-info" *ngIf="!isData">
+                <div class="message">
+                    <div class="info">
+                        <i class="fa fa-info-circle"></i>
+                        {{'messages.no_data_info' | translate}}
+                    </div>
+
+                </div>
+            </div>
+        </section>
+     
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="language">
+                <form [formGroup]="langForm">
+                    <p-dropdown [options]="languages" formControlName="language" (onChange)="onLanguageSelected($event.value)">
+                        <ng-template let-lang pTemplate="item">
+                            <div class="ui-helper-clearfix dropdown">
+                                <img src="assets/images/flag_{{lang.value}}.png" />
+                                <div class="label-text">{{lang.label}}</div>
+                            </div>
+                        </ng-template>
+                    </p-dropdown>
+                </form>
+            </div>
+            <div class="button">
+                <button type="button" class="btn add-button" [routerLink]="['/new']">{{'buttons.add_contact' | translate}}</button>
+            </div>
+        </div>
+    </footer>
+</div>
+

@@ -1,0 +1,62 @@
+{
+    "titles": {
+        "main": "Lista de contactos",
+        "detail": "Detalle de contacto",
+        "new": "Nuevo contacto"
+    },
+    "search_placeholder": "Filtrar",
+    "buttons": {
+        "add_contact": "Añadir",
+        "return": "Volver",
+        "add": "Añadir",
+        "accept": "Aceptar",
+        "cancel": "Cancelar",
+        "edit": "Editar",
+        "delete": "Borrar",
+        "yes": "Sí",
+        "no": "No"  
+    },
+    "contact_data": {
+        "name": "Nombre",
+        "birthdate": "Fecha nac."
+    },
+    "messages": {
+        "no_data_info": "No hay contactos",
+        "no_contact_info": "El contacto no existe",
+        "loading": "Cargando"
+    },
+    "component_literals": {
+        "calendar": {
+            "firstDayOfWeek": 1,
+            "dayNames": ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+            "dayNamesMin": ["D","L","M","X","J","V","S"],
+            "monthNames": [ "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" ],
+            "monthNamesShort": [ "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dec" ]
+        },
+        "messages": {
+            "success": {
+                "contact_creation": "Contacto creado correctamente",
+                "contact_delete": "Contacto borrado correctamente",
+                "contact_update": "Contacto modificado correctamente"
+            },
+            "error": {
+                "general_error": "Ha ocurrido un error",
+                "creation_error": "Ha habido un error durante la creación"
+                
+            }
+        },
+        "modals": {
+            "delete_confirmation": {
+                "confirm_delete": "Confirmación de eliminación",
+                "ask_delete": "¿Quiere borrar este contacto?",
+                "reject_button": "No",
+                "accept_button": "Sí"
+            }
+        },
+        "language_list": {
+            "en": "Inglés",
+            "es": "Español"
+        }
+
+    }
+}

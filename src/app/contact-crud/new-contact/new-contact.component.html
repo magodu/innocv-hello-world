@@ -1,0 +1,53 @@
+<div class="contact-container">
+    <app-modal></app-modal>
+    <header>
+        <div class="flex-row">
+            <div class="flex-col-6">
+                <div class="flex-box">
+                    <div class="header-text">
+                        <h1>{{'titles.new' | translate}} </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col-6"></div>
+        </div>
+    </header>
+    <div class="content" *ngIf="i18nCalendar">
+        <section class="flex-row contact-section flex-center">
+            <div class="contact">
+                <div class="flex-col-12">
+                    <div class="contact-wrapper">
+                        <form [formGroup]="contactForm" (ngSubmit)="addNewContact()" class="contact-form">
+                            <div class="contact-form-wrapper">
+                                <div class="contact-photo">
+                                    <img src="assets/images/unknown-photo.jpg" />
+                                </div>
+                                <div class="contact-data">
+                                    <dl>
+                                        <dt>{{'contact_data.name' | translate}}</dt>
+                                        <dd>
+                                            <input class="form-control" type="text" id="name" [ngClass]="{'error': contactForm.controls['name'].dirty && contactForm.controls['name'].invalid}" formControlName="name">
+                                        </dd>
+                                        <dt>{{'contact_data.birthdate' | translate}}</dt>
+                                        <dd>
+                                            <p-calendar formControlName="birthdate" [monthNavigator]="true" [yearNavigator]="true" yearRange="1900:2017" [showIcon]="true" [inputStyle]="{'height':'34px'}" [locale]="i18nCalendar"></p-calendar>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="flex-col-12 actions">
+                                <button type="button" class="button" (click)="cancelNewContact()"> {{'buttons.cancel' | translate}}</button>
+                                <button type="submit" class="button" [disabled]="!contactForm.valid"> {{'buttons.add' | translate}}</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-container flex-end">
+            <button type="button" class="btn" [routerLink]="['/contacts-list']">{{'buttons.return' | translate}}</button>
+        </div>
+    </footer>
+</div>

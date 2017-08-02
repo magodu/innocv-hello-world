@@ -1,0 +1,248 @@
+$text-color: #FFFFFF;
+$background-color: #d14728;
+
+
+.contacts-list-container {
+    display: flex;
+    min-height: 100vh;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    header {
+        background: $background-color;
+        padding: 20px 0 20px 0;
+        color: $text-color;
+        height: 10%;
+        min-height: 70px;
+        width: 100%;
+        table-layout: fixed;
+        margin-bottom: 2em;
+        .header-text {
+            padding-left: 100px;
+            h1 {
+                margin: 0;
+            }
+        }
+        .search-container {
+            margin-right: 20px;
+            .search {
+                position: relative;
+                color: #aaa;
+                font-size: 16px;
+            }
+            .search input {
+                height: 32px;
+                background: #fcfcfc;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .search input {
+                text-indent: 32px;
+            }
+            .search .fa-search {
+                position: absolute;
+                top: 8px;
+                right: 10px;
+            }
+            input[type=text] {
+                width: 130px;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+            input[type=text]:focus {
+                width: 50%;
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        background: $background-color;
+        color: $text-color;
+        .footer-container {
+            padding: 15px 0 15px 0;
+            width: 90%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            .language {
+                .dropdown {
+                    position: relative;height: 25px;
+
+                    img {
+                        width:20px;position:absolute;top:5px;left:5px
+                    }
+
+                    .label-text {
+                        font-size:14px;float:right;margin-top:4px
+                    }
+                }
+            }
+            button {
+                background-color: $background-color;
+                border: solid #ffffff 2px;
+                color: #FFFFFF;
+                padding: 5px 32px;
+                text-align: center;
+                -webkit-transition-duration: 0.4s;
+                transition-duration: 0.4s;
+                text-decoration: none;
+                font-size: 16px;
+                cursor: pointer;
+                &:hover,
+                &:focus {
+                    background: #ffffff;
+                    color: #000000;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .content {
+        flex: 1 0 auto;
+        .letters {
+            margin: 0 0 30px 60px;
+            span {
+                    margin-right: 5px;
+                    text-transform: uppercase;
+                a {
+                    color: #d14728;
+                    cursor: pointer;
+                    &:hover {
+                        color: black;
+                    }
+                    &.active {
+                        font-size: 20px;
+                        font-weight: bold;
+                        text-decoration: underline;
+                    }
+                    &.disabled {
+                        color: #ccc;
+                        cursor: default;
+                    }
+
+                    a {
+                        color: #d14728;
+                    }
+                }
+            }
+        }
+        .contacts {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .contacts-wrapper {
+                width: 95%;
+                height: 530px;
+                overflow-y: auto;
+                .letter-container {
+                    overflow: auto;
+                    .letter-title {
+                        float: left;
+                        margin-bottom: 20px;
+                        width: 90%;
+                        font-size: 30px;
+                        color: #d14728;
+                        .letter {
+                            text-transform: uppercase;
+                            border-bottom: 1px solid #CCC;
+                            padding-top: 30px;
+                            width: 100%;
+                        }
+                    }
+                    .contact {
+                        float: left;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        display: table;
+                        width: 300px;
+                        border: 1px solid #DDD;
+                        border-radius: 5px;
+                        padding: 20px;
+                        position: relative;
+                        box-shadow: 2px 2px 2px #e6e5e5;
+                        .contact-photo {
+                            width: 60px;
+                            float: left;
+                            img {
+                                width: 60px;
+                                border-radius: 30px;
+                            }
+                        }
+                        .contact-data {
+                            width: 195px;
+                            float: left;
+                            .info {
+                                width: 100%;
+                                padding: 0 15px 0 15px;
+                                font-size: 13px;
+                                .name {
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    width: 100%;
+                                }
+                                .birthdate {
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    width: 100%;
+                                }
+                                .address {
+                                    height: 33px;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: normal;
+                                }
+                                .birthdate,
+                                .address {
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                        &:hover {
+                            cursor: pointer;
+                            background-color: rgba(255, 186, 186, 0.39);
+                        }
+                    }
+                }
+            }
+
+            .message-info {
+                width: 90%;
+                min-height: 30vh;
+                height: 30vh;
+                display: flex;
+                align-items: center;
+
+                .message {
+                    border: 1px solid #cfd8e1;
+                    padding: 10px;
+                    border-radius: 8px;
+                    height: 100px;
+                    width: 85%;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    background-color: #f5f6f7;
+                   
+                    .info {
+                        padding:12px;
+                        color: #00529B;
+
+                        i {
+                            margin:10px 22px;
+                            font-size:2em;
+                            vertical-align:middle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
